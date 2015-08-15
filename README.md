@@ -11,7 +11,7 @@ In this popular challenge, the aim is to predict what sorts of people were likel
 
 ## Code Example
 
-TODO:
+TODO
 
 ## Motivation
 
@@ -53,9 +53,13 @@ corrgram: Plot a Correlogram
 Following scripts need to be run seprately
 
 exploratory_data_analysis.R  -- All exploratory data analysis approaches analyzing data sets to summarize their main characteristics, building plots, creating map of missing features e.t.c
+
 logistic_regression_solution.R -- Feature clean up, split of data set into train test, cross validation & survival prediction using Logistic Regression
+
 random_forest_solution.R -- Feature clean up, split of data set into train test, cross validation & survival prediction using Random Forest
+
 support_vector_machine_solution.R -- Feature clean up, split of data set into train test, cross validation & survival prediction using Support Vector Machine
+
 final_baggged_solution.R -- Feature clean up, split of data set into train test, cross validation & survival prediction using all the above methods and then bagging the results.
 
 
@@ -64,11 +68,17 @@ final_baggged_solution.R -- Feature clean up, split of data set into train test,
 Some of the data visualizations are saved as pdfs in plots folder. Code for the same can be found in exploratory_data_analysis.R. The remaining visualizations like missmaps are printed in console itself.
 
 Age_Distribution.pdf
+
 Age_Vs_Survival.pdf
+
 Embarked_Vs_Survival.pdf
+
 Fare_Distribution.pdf
+
 PClass_Distribution_Bar.pdf
+
 survival_vs_sex.pdf
+
 survived_vs_died.pdf
 
 ## Contributors
